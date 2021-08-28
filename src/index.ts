@@ -3,14 +3,10 @@ import "reflect-metadata";
 import app from "./server";
 
 import { APP_PORT } from "./config";
-import init from "./utils/init";
 import log from "./log";
 
 async function main() {
   log.info("Booting Server Up 🔥");
-
-  // initialize
-  await init();
 
   log.info("Server Ready and Initialized ⚡");
 
