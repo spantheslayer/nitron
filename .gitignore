@@ -117,3 +117,5 @@ dist
 
 # Typeorm
 ormconfig.json
+
+yarn.lock
